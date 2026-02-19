@@ -1,0 +1,4 @@
+logs = ["FAIL_LOGIN from 192.168.1.50", "SUCCESS_LOGIN from 10.0.0.1"]
+for log in logs:
+    if "FAIL" in log:
+        print(f"ALERT: Security incident detected: {log}")
